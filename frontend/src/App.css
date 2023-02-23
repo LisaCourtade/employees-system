@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.file-input-container{
+  width: min-content;
+  margin: 20px auto 50px auto;
+  text-align: start;
+}
+
+.file-input {
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: cornflowerblue;
+  padding: 5px 15px;
+  width: min-content;
+  border-radius: 4px;
+  text-align: center;
+  color:  aliceblue;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.employees-table {
+  width: 750px;
+  height: auto;
+  background-color: #70CAD1;
+  margin: 30px auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #70CAD1;
+}
+
+.row:nth-of-type(2n) {
+  background-color: #A8E0FF;
+}
+
+.column {
+  width: 250px;
+  padding: 2px 6px;
+  text-align: start;
+}
+
+.header {
+  background-color: #3E517A;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 4px 10px;
+}
+
+.page-controller {
+  display: flex;
+  justify-content: center;
+  background: white;
+  color:dimgray;
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 4px;
+  text-align: center;
+  padding: 2px 6px;
+  width: min-content;
+  margin-top: 3px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.page-number {
+  border-radius: 4px;
+  text-align: center;
+  padding: 2px 8px;
+  width: min-content;
+  margin-top: 3px;
+}
+
+.current-view {
+  font-weight: 600;
+  background-color: #70CAD1;
+  color: white;
+}
+
+.btn-disabled {
+  border-radius: 4px;
+  text-align: center;
+  padding: 2px 6px;
+  width: min-content;
+  margin-top: 3px;
+  color:rgb(225, 225, 225);
+}
+
+.btn-disabled:hover {
+  cursor: default;
+}
