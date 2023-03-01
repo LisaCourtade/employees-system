@@ -1,4 +1,4 @@
-1. cd /backend and start srpint boot app with the help of IDEA or command line
+1. cd /backend and start spring boot app with the help of IDEA or command line
 2. cd /frontend -> npm install -> npm start
 
 Use sample csv file to test the functionality.
